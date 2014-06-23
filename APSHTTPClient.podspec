@@ -14,14 +14,14 @@ Pod::Spec.new do |s|
                        find use in Titanium and the Appcelerator
                        Native SDK for iOS.
                        DESC
-  s.homepage         = 'https://github.com/appcelerator/APSHTTPClient/'
+  s.homepage         = 'https://github.com/ingo/APSHTTPClient/'
   s.license          = 'Apache License, Version 2.0'
   s.author           = {
     'Pedro Enrique' => 'penrique@appcelerator.com',
     'Sabil Rahim'   =>  'srahim@appcelerator.com',
     'Vishal Duggal' => 'vduggal@appcelerator.com'
   }
-  s.source           = { :git => 'https://github.com/appcelerator/APSHTTPClient.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/ingo/APSHTTPClient.git', :tag => s.version.to_s }
 
   s.platform     = :ios, '7.0'
   s.ios.deployment_target = '6.1'
